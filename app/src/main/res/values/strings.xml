@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Complex Calculator</string>
+
+    <string-array name="operator_arrays">
+        <item>Select Operation</item>
+        <item>Addition</item>
+        <item>Subtraction</item>
+        <item>Multiplication</item>
+        <item>Division</item>
+    </string-array>
+
+    <string-array name="complex_form">
+        <item>Select Complex Form</item>
+        <item>Rectangular</item>
+        <item>Exponential</item>
+        <item>Polar</item>
+    </string-array>
+</resources>
