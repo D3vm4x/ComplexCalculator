@@ -17,6 +17,14 @@ public class complex {
 
     // Determines the string's form and constructs a
     //  complex number based on the string's form
+    // Valid string format:
+    // x+yi
+    // yi
+    // x
+    // xe^yi
+    // e^yi
+    // e^i
+    // r(cos(x) + isin(x))
     complex(String str) {
         str = str.replaceAll(" ", "");
         if(str.contains("e^")) { // If in exponential form
